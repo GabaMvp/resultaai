@@ -75,8 +75,8 @@ export const metadata: Metadata = {
   },
 
   icons: {
-  icon: "/icon.svg",
-},
+    icon: "/icon.svg",
+  },
 
   formatDetection: {
     email: false,
@@ -115,6 +115,14 @@ export default function RootLayout({
             gtag('config', 'G-41PGCVNFKX');
           `}
         </Script>
+
+        <Script
+          id="google-adsense"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7877277866564107"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
