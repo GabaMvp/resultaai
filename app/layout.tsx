@@ -74,7 +74,9 @@ export const metadata: Metadata = {
       "Calcule rápido. Resolva fácil. Calculadoras online gratuitas para finanças, trabalho e situações do dia a dia.",
   },
 
-  icons: { icon: "/favicon.ico" },
+  icons: {
+  icon: "/icon.svg",
+},
 
   formatDetection: {
     email: false,
