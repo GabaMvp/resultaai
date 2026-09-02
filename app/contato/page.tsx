@@ -48,7 +48,7 @@ export default function ContatoPage() {
               href="mailto:resultaicontato@gmail.com"
               className="mt-5 inline-flex break-all text-lg font-black text-[#2563EB] transition hover:text-[#1D4ED8] sm:text-xl"
             >
-              resultaicontato@gmail.com
+              resultaaicontato@gmail.com
             </a>
 
             <div className="mt-6">
@@ -105,7 +105,7 @@ export default function ContatoPage() {
             </div>
 
             <a
-              href="mailto:resultaicontato@gmail.com?subject=Sugestão%20para%20o%20ResultaAí"
+              href="mailto:resultaaicontato@gmail.com?subject=Sugestão%20para%20o%20ResultaAí"
               className="mt-5 inline-flex font-bold text-[#2563EB] transition hover:text-[#1D4ED8]"
             >
               Enviar uma sugestão →
