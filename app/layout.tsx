@@ -45,6 +45,12 @@ export const metadata: Metadata = {
   publisher: "ResultaAí",
   category: "finance",
 
+  verification: {
+    other: {
+      "google-adsense-account": "ca-pub-7877277866564107",
+    },
+  },
+
   robots: {
     index: true,
     follow: true,
