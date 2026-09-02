@@ -207,16 +207,19 @@ export default function DecimoTerceiroPage() {
       nome: "Rescisão",
       descricao:
         "Estime os valores que você pode receber ao encerrar um contrato de trabalho.",
+      href: "/rescisao",
     },
     {
       nome: "Férias",
       descricao:
         "Calcule quanto você pode receber no período de férias.",
+      href: "/ferias",
     },
     {
       nome: "Salário líquido",
       descricao:
         "Descubra quanto sobra do salário depois dos descontos.",
+      href: "/salario-liquido",
     },
   ];
 
@@ -547,28 +550,25 @@ export default function DecimoTerceiroPage() {
           </h2>
 
           <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
-            {calculadorasRelacionadas.map(
-              (calculadora) => (
-                <div
-                  key={calculadora.nome}
-                  className="rounded-2xl border border-[#E2E8F0] bg-white p-5"
-                >
-                  <div className="flex items-start justify-between gap-3 sm:block">
-                    <h3 className="font-bold text-[#0F172A]">
-                      {calculadora.nome}
-                    </h3>
+            {calculadorasRelacionadas.map((calculadora) => (
+              <a
+                key={calculadora.nome}
+                href={calculadora.href}
+                className="group rounded-2xl border border-[#E2E8F0] bg-white p-5 transition hover:-translate-y-0.5 hover:border-[#2563EB]/40 hover:shadow-md"
+              >
+                <h3 className="font-bold text-[#0F172A]">
+                  {calculadora.nome}
+                </h3>
 
-                    <span className="shrink-0 rounded-full bg-[#F1F5F9] px-2.5 py-1 text-[10px] font-bold text-[#64748B] sm:mt-4 sm:inline-block">
-                      Em breve
-                    </span>
-                  </div>
+                <p className="mt-2 text-sm leading-6 text-[#64748B]">
+                  {calculadora.descricao}
+                </p>
 
-                  <p className="mt-2 text-sm leading-6 text-[#64748B]">
-                    {calculadora.descricao}
-                  </p>
-                </div>
-              )
-            )}
+                <p className="mt-4 text-sm font-bold text-[#2563EB]">
+                  Abrir calculadora →
+                </p>
+              </a>
+            ))}
           </div>
         </section>
       </section>

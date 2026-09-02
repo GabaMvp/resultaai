@@ -169,8 +169,8 @@ export default function JurosCompostosPage() {
     {
       nome: "Porcentagem",
       descricao: "Calcule aumentos, descontos e porcentagens.",
-      href: "#",
-      disponivel: false,
+      href: "/porcentagem",
+      disponivel: true,
     },
     {
       nome: "Financiamento",

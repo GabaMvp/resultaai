@@ -836,7 +836,10 @@ export default function FeriasPage() {
               </p>
             </a>
 
-            <div className="rounded-2xl border border-[#E2E8F0] bg-white p-5">
+            <a
+              href="/salario-liquido"
+              className="rounded-2xl border border-[#E2E8F0] bg-white p-5 transition hover:border-[#2563EB]/40"
+            >
               <h3 className="font-bold text-[#0F172A]">
                 Salário líquido
               </h3>
@@ -845,10 +848,10 @@ export default function FeriasPage() {
                 Descubra quanto sobra depois dos descontos.
               </p>
 
-              <span className="mt-4 inline-block rounded-full bg-[#F1F5F9] px-2.5 py-1 text-[10px] font-bold text-[#64748B]">
-                Em breve
-              </span>
-            </div>
+              <p className="mt-4 text-sm font-bold text-[#2563EB]">
+                Abrir calculadora →
+              </p>
+            </a>
           </div>
         </section>
       </section>

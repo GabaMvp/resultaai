@@ -42,9 +42,9 @@ export default function PrivacidadePage() {
             </p>
 
             <p>
-              Esta Política descreve de forma geral como informações e
-              tecnologias de armazenamento, como cookies, podem ser utilizadas
-              durante a navegação pelo site.
+              Esta Política descreve como informações e tecnologias de
+              armazenamento, como cookies e identificadores semelhantes, podem
+              ser utilizadas durante a navegação pelo site.
             </p>
           </Secao>
 
@@ -74,9 +74,10 @@ export default function PrivacidadePage() {
             <p>
               Durante a navegação, determinadas informações técnicas podem ser
               coletadas automaticamente pelo site ou por serviços utilizados
-              nele. Essas informações podem incluir, por exemplo, tipo de
-              navegador, dispositivo utilizado, páginas acessadas, data e hora
-              de acesso e informações técnicas relacionadas à conexão.
+              nele. Essas informações podem incluir dados sobre navegador,
+              dispositivo, páginas acessadas, interações, data e hora de acesso,
+              localização geográfica aproximada e informações técnicas
+              relacionadas à conexão.
             </p>
 
             <p>
@@ -86,7 +87,40 @@ export default function PrivacidadePage() {
             </p>
           </Secao>
 
-          <Secao titulo="4. Cookies e tecnologias semelhantes">
+          <Secao titulo="4. Google Analytics">
+            <p>
+              O ResultaAí utiliza o Google Analytics, serviço de análise de
+              audiência fornecido pelo Google, para compreender de forma
+              agregada como o site é utilizado e melhorar suas páginas,
+              conteúdos e ferramentas.
+            </p>
+
+            <p>
+              O Google Analytics pode utilizar cookies e outros
+              identificadores para coletar informações relacionadas à
+              utilização do site, como páginas acessadas, interações,
+              informações do navegador e do dispositivo, estatísticas de
+              sessão e localização geográfica aproximada.
+            </p>
+
+            <p>
+              Essas informações são utilizadas para gerar estatísticas e
+              relatórios sobre a utilização do ResultaAí. Não solicitamos que
+              usuários forneçam informações de identificação pessoal ao Google
+              Analytics por meio das calculadoras.
+            </p>
+
+            <a
+              href="https://policies.google.com/privacy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex font-bold text-[#2563EB] transition hover:text-[#1D4ED8]"
+            >
+              Consultar a Política de Privacidade do Google →
+            </a>
+          </Secao>
+
+          <Secao titulo="5. Cookies e tecnologias semelhantes">
             <p>
               Cookies são pequenos arquivos ou identificadores utilizados por
               sites e serviços online para permitir determinadas
@@ -95,42 +129,57 @@ export default function PrivacidadePage() {
             </p>
 
             <p>
-              O ResultaAí poderá utilizar cookies próprios ou de terceiros
-              necessários para funcionamento, análise de audiência,
-              desempenho e publicidade.
+              O ResultaAí e serviços de terceiros utilizados no site podem
+              utilizar cookies, web beacons, endereços IP e outros
+              identificadores para análise de audiência, funcionamento,
+              segurança, desempenho e, quando aplicável, publicidade.
             </p>
 
             <p>
               Dependendo do navegador utilizado, você pode visualizar,
               bloquear ou excluir cookies por meio das configurações do
               próprio navegador. A desativação de determinados cookies poderá
-              afetar algumas funcionalidades do site.
+              afetar algumas funcionalidades ou medições do site.
             </p>
           </Secao>
 
-          <Secao titulo="5. Publicidade e Google AdSense">
+          <Secao titulo="6. Publicidade e Google AdSense">
             <p>
-              O ResultaAí poderá exibir anúncios fornecidos por plataformas de
-              publicidade de terceiros, incluindo o Google AdSense.
+              O ResultaAí poderá utilizar o Google AdSense e outros serviços de
+              publicidade para exibir anúncios em suas páginas.
             </p>
 
             <p>
-              Quando serviços de publicidade estiverem ativos, o Google e
-              outros fornecedores poderão utilizar cookies ou tecnologias
-              semelhantes para exibir, medir e personalizar anúncios de acordo
-              com as configurações aplicáveis e com o consentimento exigido
-              pela legislação.
+              Quando a publicidade estiver ativa, terceiros, incluindo o
+              Google, poderão colocar e ler cookies no navegador do usuário ou
+              utilizar web beacons, endereços IP e outros identificadores como
+              consequência da veiculação de anúncios no site.
             </p>
 
             <p>
-              O uso de dados por serviços do Google está sujeito às políticas
-              e aos termos próprios do Google. As opções disponíveis para
-              controle e personalização de anúncios podem variar conforme o
-              serviço, a região e as configurações do usuário.
+              Terceiros, incluindo o Google, podem utilizar cookies para
+              veicular anúncios com base em visitas anteriores do usuário ao
+              ResultaAí ou a outros sites. O uso de cookies de publicidade
+              permite ao Google e aos seus parceiros exibir anúncios de acordo
+              com as configurações aplicáveis ao usuário.
             </p>
+
+            <p>
+              Os usuários podem gerenciar a personalização de anúncios por
+              meio das configurações disponibilizadas pelo Google.
+            </p>
+
+            <a
+              href="https://adssettings.google.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex font-bold text-[#2563EB] transition hover:text-[#1D4ED8]"
+            >
+              Acessar as configurações de anúncios do Google →
+            </a>
           </Secao>
 
-          <Secao titulo="6. Serviços de terceiros">
+          <Secao titulo="7. Serviços de terceiros">
             <p>
               O ResultaAí poderá utilizar serviços de terceiros para
               hospedagem, análise de tráfego, desempenho, segurança,
@@ -145,7 +194,7 @@ export default function PrivacidadePage() {
             </p>
           </Secao>
 
-          <Secao titulo="7. Links para outros sites">
+          <Secao titulo="8. Links para outros sites">
             <p>
               Algumas páginas poderão conter links para sites externos. O
               ResultaAí não controla as práticas de privacidade, conteúdos ou
@@ -158,7 +207,7 @@ export default function PrivacidadePage() {
             </p>
           </Secao>
 
-          <Secao titulo="8. Segurança">
+          <Secao titulo="9. Segurança">
             <p>
               Buscamos adotar medidas razoáveis para manter o site seguro e
               reduzir riscos relacionados a acesso não autorizado, alteração,
@@ -171,7 +220,7 @@ export default function PrivacidadePage() {
             </p>
           </Secao>
 
-          <Secao titulo="9. Privacidade de crianças e adolescentes">
+          <Secao titulo="10. Privacidade de crianças e adolescentes">
             <p>
               O ResultaAí não é desenvolvido com o objetivo de coletar
               intencionalmente dados pessoais de crianças. As ferramentas são
@@ -180,7 +229,7 @@ export default function PrivacidadePage() {
             </p>
           </Secao>
 
-          <Secao titulo="10. Direitos e solicitações">
+          <Secao titulo="11. Direitos e solicitações">
             <p>
               Dependendo da legislação aplicável e da forma como os dados
               forem tratados, o usuário poderá possuir direitos relacionados
@@ -193,7 +242,7 @@ export default function PrivacidadePage() {
             </p>
           </Secao>
 
-          <Secao titulo="11. Alterações nesta Política">
+          <Secao titulo="12. Alterações nesta Política">
             <p>
               Esta Política de Privacidade poderá ser atualizada para refletir
               mudanças no funcionamento do site, nos serviços utilizados ou em
@@ -206,7 +255,7 @@ export default function PrivacidadePage() {
             </p>
           </Secao>
 
-          <Secao titulo="12. Contato">
+          <Secao titulo="13. Contato">
             <p>
               Em caso de dúvidas sobre esta Política de Privacidade ou sobre o
               funcionamento do ResultaAí, utilize os canais indicados em nossa
